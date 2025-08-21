@@ -1,0 +1,13 @@
+# Create .gitignore with proper Laravel exclusions
+echo /vendor/ > .gitignore
+echo /node_modules/ >> .gitignore
+echo .env >> .gitignore
+echo .env.example >> .gitignore
+echo .phpunit.result.cache >> .gitignore
+echo /public/storage >> .gitignore
+echo /public/hot >> .gitignore
+echo /public/js/ >> .gitignore
+echo /public/css/ >> .gitignore
+echo npm-debug.log* >> .gitignore
+echo yarn-debug.log* >> .gitignore
+echo yarn-error.log* >> .gitignore
